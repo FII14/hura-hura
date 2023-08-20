@@ -1,6 +1,5 @@
 #!/bin/bash
-# aircrack-ng
-# a 802.11 WEP / WPA-PSK key cracker
+# aircrack-ng wizard
 
 read -p "Enter the network interface you want to use: " network_interface
 read -p "Enter the bssid you want to attack: " bssid
