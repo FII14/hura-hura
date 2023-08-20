@@ -1,4 +1,5 @@
 #!/bin/bash
+# aircrack-ng
 
 read -p "Enter the network interface you want to use: " network_interface
 read -p "Enter the bssid you want to attack: " bssid
