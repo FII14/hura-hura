@@ -10,7 +10,3 @@ read -p "Enter the path to the capture file: " capture_file
 read -p "Enter the path to the wordlist file: " wordlist_file
 
 aircrack-ng -w "$wordlist_file" --bssid "$bssid" "$capture_file"
-
-########################################
-# Everything depends on the intention. #
-########################################
