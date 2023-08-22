@@ -11,11 +11,12 @@ read -p "Enter the path to the capture file: " capture_file
 if [[ ! -f "$capture_file" ]]; then
     echo "Error: $capture_file file not found."
     exit 1
+fi
 
-elif [[ -f "$capture_file" && "$capture_file##*." != "cap" ]]; then
-    echo "Error: $capture_file file are not capture file."
+if [[ -f "$capture_file" && "$capture_file" != *.cap ]]; then
+    echo "Error: $capture_file is not a capture file."
     exit 1
-fi    
+fi
     
 read -p "Enter the path to the wordlist file: " wordlist_file
 
