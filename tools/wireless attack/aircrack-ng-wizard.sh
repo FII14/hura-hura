@@ -1,6 +1,8 @@
 #!/bin/bash
-# aircrack-ng wizard
-# by : fii14
+######################
+# aircrack-ng wizard #
+# by : fii14         #
+######################
 
 read -p "Enter the network interface you want to use: " network_interface
 read -p "Enter the bssid you want to attack: " bssid
